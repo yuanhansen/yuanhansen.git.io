@@ -1,0 +1,569 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>轻小说</title>
+<style>
+	* {
+    margin: 0;
+    padding: 0;
+}
+.menus.menus1 h1 {
+	vertical-align: sub;
+	float: left;
+	margin-top: 30px;
+	font-size: 54px;
+	text-transform: none;
+	font-family: "华文行楷";
+	font-weight: lighter;
+	color: #000000;
+}
+.banenr {
+	height: 80px;
+	width: auto;
+	background-color: #078EEB;
+}
+.banenr .banner-bg h3 {
+	font-size: 36px;
+	font-weight: lighter;
+	float: left;
+	margin-top: 20px;
+	color: #f1f1f1;
+	margin-left: -30px;
+}
+
+.banner-bg {
+	margin: auto;
+	width: 1100px;
+	height: 80px;
+	padding-left: 0px;
+}
+a {
+	color: #000;
+	text-decoration: none;
+}
+
+
+
+li {
+    list-style: none;
+}
+.clear {
+    clear: both;
+}
+.menus {
+	width: 1100px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	height: 90px;
+}
+.menus ul {
+	width: 700px;
+	position: relative;
+	float: right;
+	margin-top: 20px;
+	font-style: italic;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #FF09D4;
+}
+.menus li {
+	float: left;
+	width: 100px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	cursor: pointer;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+	font-size: 30px;
+}
+.menus li:nth-child(2) {
+    color: #F49405;
+}
+.menus .bg {
+	width: 20px;
+	height: 40px;
+	position:absolute;
+	left: 0;
+	top: 0;
+	z-index: -1;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+	background-image: url(file:///E|/hust/%E4%BD%9C%E4%B8%9A/%E6%96%B0%E7%94%9F%E5%AE%9E%E8%B7%B5%E8%AF%BE/%E7%BD%91%E9%A1%B5%E4%BD%9C%E4%B8%9A/1930140618%E7%BD%97%E5%8F%91%E6%9D%B0/images/index/ban.png);
+}
+
+.tab {
+    width: 750px;
+    height: 500px;
+    border: 1px solid #000;
+    margin-top: 20px;
+    font-size: 40px;
+    line-height: 500px;
+    text-align: center;
+    color: #A3A0A0;
+    font-weight: bold;
+    display: none;
+}
+.show {
+    display: block;
+}
+
+#footer {
+	text-align: center;
+	vertical-align: middle;
+	height: 150px;
+	padding-top: 50px;
+	color: #FFF;
+	background-color: #333;
+}
+body {
+	margin: 0px;
+	background-color: #E08D1D;
+}
+.slider {
+	background-color: #C99;
+	height: 620px;
+	width: 1100px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	border-radius: 12px;
+	padding-bottom: 0px;
+}
+
+
+
+body { 
+    width:auto;
+	margin: 0px;
+	padding: 0px;
+}
+.slider1 {
+	height: 600px;
+	width: 1080px;
+	margin-top: 10px;
+	margin-right: 10px;
+
+	margin-left: 10px;
+	overflow: hidden;
+	border-radius: 12px;
+}
+.welcome-text {
+	height: 200px;
+	width: 1100px;
+	margin-top: 12px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	background-color: #ECF020;
+	font-size: 48px;
+	text-align: center;
+	vertical-align: middle;
+	padding-top: 40px;
+}
+.scroll-td-text {
+	height: 40px;
+	width: 280px;
+	text-align: center;
+	vertical-align: middle;
+	padding-top: 10px;
+	font-size: 24px;
+}
+.introduce {
+	height: 40px;
+	width: 1100px;
+	margin-right: auto;
+	margin-left: auto;
+	font-size: 24px;
+	padding-top: 8px;
+	border-bottom-width: 2px;
+	border-left-width: 10px;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-bottom-color: #201B1C;
+	border-left-color: #9F3;
+}
+.introduce-content {
+	height: 500px;
+	width: 1100px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #E2A61A;
+	margin-bottom: 5px;
+	border-radius: 15px;
+}
+#img-introduce {
+	background-color: #CC0;
+	float: left;
+	height: 480px;
+	width: 620px;
+	margin: 10px;
+}
+#text-introduce {
+	margin: 10px;
+	height: 480px;
+	width: 440px;
+	float: left;
+}
+.text-introducce {
+	height: 100px;
+	width: 440px;
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
+.scroll {
+	height: 380px;
+	width: 1000px;
+	margin-right: auto;
+	background-color: #FFF;
+	position: relative;
+	overflow: hidden;
+	margin-top: 20px;
+	margin-bottom: auto;
+	margin-left: auto;
+}
+.ms-ex {
+	padding: 10px;
+	height: 440px;
+	width: 1100px;
+	border: 1px solid #999;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 14px;
+	margin-bottom: 14px;
+}
+.text-box {
+	height: 40px;
+	width: 150px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	float: left;
+	font-size: 30px;
+	text-align: center;
+	vertical-align: middle;
+	padding-top: 10px;
+	
+}
+.ms-exhibition p {
+	height: 36px;
+	margin-top: 0px;
+}
+
+	
+.ms-exhibition {
+	margin-right: auto;
+	font-size: 36px;
+	padding-top: 0px;
+	text-align: center;
+	height: 36px;
+	width: 1000px;
+	margin-left: auto;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	background-color: #CECD26;
+}
+#text-box1 {
+	background-color: #2742AD;
+	border-radius: 12px;
+}
+#text-box3 {
+	background-color: #F03;
+	border-radius: 12px;
+}
+#text4 #text-box4 {
+	background-color: #6F6;
+	border-radius: 12px;
+}
+.swiper-container {
+      width: 100%;
+      height: 100%;
+      margin-left: auto;
+      margin-right: auto;
+
+	 
+    }
+#text-box2 {
+	background-color: #09F;
+	border-radius: 12px;
+}
+.text-box-right {
+	float: left;
+	height: 80px;
+	width: 250px;
+	margin-top: 16px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 10px;
+	font-size: 18px;
+}
+    .swiper-slide {
+	text-align: center;
+	font-size: 18px;
+	background: #fff;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+	margin-top: 10px;
+	
+	
+	
+    }
+     
+.scroll-in {
+	height: 300px;
+	width: 1080px;
+	margin-top: 40px;
+	margin-right: auto;
+	margin-left: auto;
+	
+
+	
+}
+			
+		
+
+.scroll-td {
+	height: 280px;
+	width: 280px;
+	margin-left: 0px;
+}
+h3 {
+	font-size: 24px;
+	line-height: 30px;
+	font-family: "微软雅黑";
+	text-indent: 48px;
+}
+h1 {
+	line-height: 24px;
+	font-size: 44px;
+}
+	
+    * { margin: 0; padding: 0; }
+    body {
+    font-family: "Microsoft Yahei";
+    font-size: 14px;
+    color: #333;
+    background-color: #E4E1E1;
+}
+    a, a:hover { text-decoration: none; color: #333; }
+    ul, li { list-style: none; }
+	svg{
+	    fill: currentColor;
+	}
+    .mt-tabpage {
+  
+    width: 1100px;
+    margin: 30px auto;
+    box-shadow: 0 0 5px #999;
+    background-color: #FFFFFF;
+    }
+	.mt-tabpage img:hover {
+	font-size: 20px;
+	 transform: scale(1.1);
+}
+    .mt-tabpage-title {
+	height: 44px;
+	font-size: 0;
+	background-color: #fff;
+	width: 94%;
+	margin: auto;
+	background: #fff;
+	border-bottom: 1px solid #f1f1f1;
+	text-align: center;
+    }
+    .mt-tabpage-title .mt-tabpage-item {
+	display: inline-block;
+	width: 105px;
+	height: 44px;
+	line-height: 44px;
+	text-align: center;
+	color: #666;
+	font-size: 20px;
+    }
+    .mt-tabpage-title .mt-tabpage-item:hover{
+    	color: #eb4537;
+    }
+    .mt-tabpage-title .mt-tabpage-item-cur {
+	color: #eb4537;
+	font-size: 24px;
+	border-bottom: 1px solid #F85B5E;
+    }
+    .mt-tabpage-count {
+      	position: relative;
+      	width: 1100px;
+      	height: 340px;
+      	overflow: hidden;
+    }
+    .mt-tabpage-cont__wrap {
+      	position: absolute;
+    }
+    .mt-tabpage-count .mt-tabpage-item {
+      	width: 1100px;
+      	height: 340px;
+      	
+      	text-align: center;
+
+    }
+	.slide-content{
+		padding:0px;
+		height:340px;
+		width:300px;
+		float:left;
+		margin-left:50px;
+	}
+	.slide-content-text{
+	height: 32px;
+	margin-top: 0px;
+	padding-top: 8px;
+	font-size: 20px;
+	}
+	.main-container{
+	max-width: 1100px;
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 20px;
+	margin-left: auto;
+	}
+	.card{
+	height: 460px;
+	width: 1100px;
+	margin-bottom: 50px;
+	border: 2px solid #00F;
+	padding-top: 10px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 10px;
+	margin-right: auto;
+	margin-left: auto;
+	}
+	.card-img-left{
+	width:600px;
+	height:450px;
+	float:left;
+	overflow:auto;
+    }
+	.card-text{
+	width: 460px;
+	margin: 0 20px;
+	height: 450px;
+	float: right;
+	position: relative;
+    }
+	.btn {
+	font-size: 24px;
+	vertical-align: sub;
+	text-align: justify;
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	border: 2px solid #F00;
+}
+.card .card-text p {
+	font-family: "微软雅黑";
+	font-size: 20px;
+	line-height: 30px;
+	margin-top: 30px;
+}
+.card .card-text h3 {
+	font-family: "微软雅黑";
+	font-size: 36px;
+	text-align: center;
+}
+.banner-x{
+	width: auto;
+	height: 650px;
+	background-image: url(../images/dumpling/banner.png);
+}
+	
+  </style>
+<link href="../css/banner-style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+ <div class="menus menus1">
+      <h1>ACG&nbsp;
+      </h1>
+      <ul>
+        <div class="bg"></div>
+            <li><span><a href="index.html" target="blank">首页</a></span></li>
+            <li><span><a href="fired rice.html">日漫</a><a>&nbsp;</a></span></li>
+            <li><span><a href="xz.html">国创</a><a>&nbsp;</a></span></li>
+            <li><span><a href="noodle.html">游戏&nbsp;</a></span></li>
+            <li><span><a href="dumplings.html">轻小说</a><a>&nbsp;</a></span></li>
+        </ul>
+        <div class="clear"></div>
+    </div>
+ 
+<script src="http://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+<script src="../js/index.js"></script>
+<div class="banenr">
+  <div class="banner-bg">
+    <h3>日漫/国创/游戏/<strong><em>轻小说</em></strong>&nbsp;</h3>
+  </div></div>
+<script src="../js/jquery-3.1.1.min.js"></script>
+<script src="../js/mt-tabpage.js"></script>
+    
+<script>
+    $(function () {
+      $('[js-tab=2]').tab({
+        curDisplay: 1,
+        changeMethod: 'horizontal'
+      });
+		
+	  $('[js-tab=3]').tab({
+        curDisplay: 1,
+        changeMethod: 'horizontal'
+      });
+    });
+  </script>
+<div class="main-container">
+  
+  <div class="card"><div class="card-img-left"><img src="../images/dumplings/1.png" width="500" /></div>
+<div class="card-text">
+  <h3>Re：从零开始的异世界生活&nbsp;</h3>
+  <p>走出便利店要回家的高中生‧菜月昴突然被召唤到异世界。这莫非就是很流行的异世界召唤？可是眼前没有召唤者就算了，还遭遇强盗迅速面临性命危机。这时，一名神秘银发美少女和猫精灵拯救了一筹莫展的他。以报恩为名义，昴自告奋勇要帮助少女找东西。 然而，好不容易才掌握到线索，昴和少女却被不明人士攻击而殒命——本来应该是这样，但回过神来，昴却发现自己置身在第一次被召唤到这个异世界时的所在位置。“死亡回归”——无力的少年得到的唯一能力，是死后时间会倒转回到一开始。 跨越无数绝望，从死亡的命运中拯救少女。“即使你忘记了，我也不会忘记你。”&nbsp;</p>
+</div></div>
+</div></div>
+   
+    <div class="card"><div class="card-img-left"><img src="../images/dumplings/2.png" width="500" /></div>
+<div class="card-text">
+  <h3>物语系列&nbsp;</h3>
+  <p>作品以21世纪初的日本直江津镇为舞台，描述一名高中少年阿良良木历与少女们遇到许多日本民间传说的怪谭故事。本作品跟一般怪谭故事不同，不以击退妖怪或寻找事发原因之类的解谜作为主线。作品主要透过对话，为男主角和少女们之间的内心作深刻描写。西尾维新以其特有的“话痨”风格，将大量的对话和心理描写穿插到主线事件中，同时还加入了许多后设以及对社会和其他作品的讽刺。故事之中既有恋爱喜剧，又有热血的动作描写，可见作者把想要的东西都写进作品中去。所以，作者将“物语系列”自评本作为他的自信作，亦称之为“以很难媒体化为目的而写的小说”。&nbsp;</p>
+</div></div>
+   
+    <div class="card"><div class="card-img-left"><img src="../images/dumplings/3.png" width="500" /></div>
+<div class="card-text">
+  <h3>魔法的禁书目录&nbsp;</h3>
+  <p>《魔法的禁书目录》是日本小说家镰池和马执笔、插画师灰村清孝负责插画的轻小说系列，也是原作者镰池和马的出道作品。第一部《魔法的禁书目录》（通称“旧约”或“无印”）于2004年4月10日-2010年10月10日期间发行，共24卷（包括SS及SS2）。第二部《新约魔法禁书目录》于2011年3月10日-2019年7月10日期间发行，《魔法禁书目录SP》及剧场版 截至2015年12月，《魔法禁书目录》系列轻小说累计发行量超过1580万部 [1] ，是电击文库自产的第一部冲破1000万部的作品系列（此前也突破1000万部的《Fortune Quest》前8卷是由角川Sneaker文库出品） [2] 。而截至2018年6月，包括漫画和外传在内的系列作品发行量已经突破3000万部 [3] 。&nbsp;</p>
+</div></div>
+  
+  
+  
+  </div>
+
+<footer> </footer>
+</body>
+</html>

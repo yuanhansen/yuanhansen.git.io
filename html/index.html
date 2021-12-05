@@ -1,0 +1,429 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script src="file:///E|/hust/作业/新生实践课/网页作业/计算机2107班蔡心源作业/js/swiper.min.js"></script>
+<script type="text/javascript" src="file:///E|/hust/作业/新生实践课/网页作业/计算机2107班蔡心源作业/js/index.js"></script>
+
+<title>2107班301蔡心源作业</title>
+
+<style type="text/css">
+* {
+    margin: 0;
+    padding: 0;
+}
+.menus.menus1 h1 {
+	vertical-align: sub;
+	float: left;
+	margin-top: 30px;
+	font-size: 54px;
+	text-transform: none;
+	font-family: "华文行楷";
+	font-weight: lighter;
+	color: #000000;
+}
+.banenr {
+	height: 80px;
+	width: auto;
+	background-color: #078EEB;
+}
+.banenr .banner-bg h3 {
+	font-size: 36px;
+	font-weight: lighter;
+	float: left;
+	margin-top: 20px;
+	color: #f1f1f1;
+	margin-left: -30px;
+}
+
+.banner-bg {
+	margin: auto;
+	width: 1100px;
+	height: 80px;
+	padding-left: 0px;
+}
+a {
+	color: #000;
+	text-decoration: none;
+}
+
+
+
+li {
+    list-style: none;
+}
+.clear {
+    clear: both;
+}
+.menus {
+	width: 1100px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	height: 90px;
+}
+.menus ul {
+	width: 700px;
+	position: relative;
+	float: right;
+	margin-top: 20px;
+	font-style: italic;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #FF09D4;
+}
+.menus li {
+	float: left;
+	width: 100px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	cursor: pointer;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+	font-size: 30px;
+}
+.menus li:nth-child(2) {
+    color: #F49405;
+}
+.menus .bg {
+	width: 20px;
+	height: 40px;
+	position:absolute;
+	left: 0;
+	top: 0;
+	z-index: -1;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+	background-image: url(file:///E|/hust/%E4%BD%9C%E4%B8%9A/%E6%96%B0%E7%94%9F%E5%AE%9E%E8%B7%B5%E8%AF%BE/%E7%BD%91%E9%A1%B5%E4%BD%9C%E4%B8%9A/1930140618%E7%BD%97%E5%8F%91%E6%9D%B0/images/index/ban.png);
+}
+
+.tab {
+    width: 750px;
+    height: 500px;
+    border: 1px solid #000;
+    margin-top: 20px;
+    font-size: 40px;
+    line-height: 500px;
+    text-align: center;
+    color: #A3A0A0;
+    font-weight: bold;
+    display: none;
+}
+.show {
+    display: block;
+}
+
+#footer {
+	text-align: center;
+	vertical-align: middle;
+	height: 150px;
+	padding-top: 50px;
+	color: #FFF;
+	background-color: #333;
+}
+body {
+	margin: 0px;
+	background-color: #E08D1D;
+}
+.slider {
+	background-color: #C99;
+	height: 620px;
+	width: 1100px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	border-radius: 12px;
+	padding-bottom: 0px;
+}
+
+
+
+body { 
+    width:auto;
+	margin: 0px;
+	padding: 0px;
+}
+.slider1 {
+	height: 600px;
+	width: 1080px;
+	margin-top: 10px;
+	margin-right: 10px;
+
+	margin-left: 10px;
+	overflow: hidden;
+	border-radius: 12px;
+}
+.welcome-text {
+	height: 200px;
+	width: 1100px;
+	margin-top: 12px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	background-color: #ECF020;
+	font-size: 48px;
+	text-align: center;
+	vertical-align: middle;
+	padding-top: 40px;
+}
+.scroll-td-text {
+	height: 40px;
+	width: 280px;
+	text-align: center;
+	vertical-align: middle;
+	padding-top: 10px;
+	font-size: 24px;
+}
+.introduce {
+	height: 40px;
+	width: 1100px;
+	margin-right: auto;
+	margin-left: auto;
+	font-size: 24px;
+	padding-top: 8px;
+	border-bottom-width: 2px;
+	border-left-width: 10px;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-bottom-color: #201B1C;
+	border-left-color: #9F3;
+}
+.introduce-content {
+	height: 500px;
+	width: 1100px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #E2A61A;
+	margin-bottom: 5px;
+	border-radius: 15px;
+}
+#img-introduce {
+	background-color: #CC0;
+	float: left;
+	height: 480px;
+	width: 620px;
+	margin: 10px;
+}
+#text-introduce {
+	margin: 10px;
+	height: 480px;
+	width: 440px;
+	float: left;
+}
+.text-introducce {
+	height: 100px;
+	width: 440px;
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
+.scroll {
+	height: 380px;
+	width: 1000px;
+	margin-right: auto;
+	background-color: #FFF;
+	position: relative;
+	overflow: hidden;
+	margin-top: 20px;
+	margin-bottom: auto;
+	margin-left: auto;
+}
+.ms-ex {
+	padding: 10px;
+	height: 440px;
+	width: 1100px;
+	border: 1px solid #999;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 14px;
+	margin-bottom: 14px;
+}
+.text-box {
+	height: 40px;
+	width: 150px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	float: left;
+	font-size: 30px;
+	text-align: center;
+	vertical-align: middle;
+	padding-top: 10px;
+	
+}
+.ms-exhibition p {
+	height: 36px;
+	margin-top: 0px;
+}
+
+	
+.ms-exhibition {
+	margin-right: auto;
+	font-size: 36px;
+	padding-top: 0px;
+	text-align: center;
+	height: 36px;
+	width: 1000px;
+	margin-left: auto;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	background-color: #CECD26;
+}
+#text-box1 {
+	background-color: #2742AD;
+	border-radius: 12px;
+}
+#text-box3 {
+	background-color: #F03;
+	border-radius: 12px;
+}
+#text4 #text-box4 {
+	background-color: #6F6;
+	border-radius: 12px;
+}
+.swiper-container {
+      width: 100%;
+      height: 100%;
+      margin-left: auto;
+      margin-right: auto;
+
+	 
+    }
+#text-box2 {
+	background-color: #09F;
+	border-radius: 12px;
+}
+.text-box-right {
+	float: left;
+	height: 80px;
+	width: 250px;
+	margin-top: 16px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 10px;
+	font-size: 18px;
+}
+    .swiper-slide {
+	text-align: center;
+	font-size: 18px;
+	background: #fff;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+	margin-top: 10px;
+	
+	
+	
+    }
+     
+.scroll-in {
+	height: 300px;
+	width: 1080px;
+	margin-top: 40px;
+	margin-right: auto;
+	margin-left: auto;
+	
+
+	
+}
+			
+		
+
+.scroll-td {
+	height: 280px;
+	width: 280px;
+	margin-left: 0px;
+}
+h3 {
+	font-size: 24px;
+	line-height: 30px;
+	font-family: "微软雅黑";
+	text-indent: 48px;
+}
+h1 {
+	line-height: 24px;
+	font-size: 44px;
+}
+</style>
+
+<link href="file:///E|/hust/作业/新生实践课/网页作业/1930140618罗发杰/css/swiper.min.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div class="menus menus1">
+  <blockquote>
+    <h1>ACG   文化赏 &nbsp; </h1>
+  </blockquote>
+<ul>
+    <div class="bg"></div>
+            <li><span><strong><a href="index.html">首页</a></strong></span></li>
+            <li><span><a href="fired rice.html">日漫</a><a>&nbsp;</a></span></li>
+            
+            <li><span><a href="xz.html">国创</a><a>&nbsp;</a></span></li>
+            <li><span><a href="noodle.html">游戏&nbsp;</a></span></li>
+	        <li><span><a href="dumplings.html">轻小说</a><a>&nbsp;</a></span></li>
+        </ul>
+        <div class="clear"></div>
+    </div>
+ 
+<script src="http://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+<script src="file:///E|/hust/作业/新生实践课/网页作业/1930140618罗发杰/js/index.js"></script>
+<div class="banenr">
+  <div class="banner-bg">
+    <h3>日漫/国创/游戏/轻小说</h3>
+</div>
+</div>
+<hr />
+
+<div class="welcome-text">
+  <h1>acg&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;动画、漫画、游戏的总称</h1>
+  <h3>&nbsp;</h3>
+  <h3>acg即Animation（动画）、Comics（漫画）与Games（游戏）的首字母缩写，现如今在轻小说改编的动画、漫画、游戏越来越多之际，又衍生出“ACGN”，小说。主要指轻小说（Light Novel）。ACG所指内容也涵盖轻小说，因此虽有人提出使用ACGN作为该词的演进说法，但实际上绝大多数场合仍在使用ACG。不过由于近年来轻小说的发展，使用ACGN的人群正逐渐增多。&nbsp;</h3>
+</div>
+
+<div class="introduce">相关文化&nbsp;</div>
+<div class="introduce-content">
+  <div id="img-introduce"><img src="../images/index/1.jpeg" width="615" /> </div>
+  <div id="text-introduce" class="text-introduce">
+    <div class="text-introducce" id="text1">
+      <div class="text-box" id="text-box1"> ·御宅族·</div>
+      
+      <div class="text-box-right" id="box-right1">一般以动画、漫画、游戏、轻小说的狂热爱好者为主要的称呼对象。&nbsp; </div>
+    </div>
+    <div class="text-introducce" id="text2">
+      <div class="text-box" id="text-box2"> ·二次元·</div>
+      <div class="text-box-right" id="box-right2">在传统上，以平面的媒体所表现的虚拟角色，如漫画或动画中的人物。</div>
+    </div>
+    <div class="text-introducce" id="text3">
+      <div class="text-box" id="text-box3"> ·漫画·</div>
+      <div class="text-box-right" id="box-right-3"> 漫画作为绘画作品经历了一个发展过程，深受学生喜爱。近年来的漫画主导作品一般为日本漫画和美国漫画。</div>
+    </div>
+    <div class="text-introducce" id="text4">
+      <div class="text-box" id="text-box4"> ·轻小说·</div>
+      <div class="text-box-right" id="box-right4"> 轻小说是一种具有高效地将故事内容传达给读者的通俗的写作手法、通常使用漫画风格的插画的一种娱乐性大众文学和通俗文学体裁。&nbsp;</div>
+    </div>
+  </div>
+</div>
+
+<hr />
+</div>
+<footer> </footer>
+</body>
+</html>

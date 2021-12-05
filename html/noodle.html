@@ -1,0 +1,558 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>游戏</title>
+<style type="text/css">
+
+	* {
+    margin: 0;
+    padding: 0;
+}
+.menus.menus1 h1 {
+	vertical-align: sub;
+	float: left;
+	margin-top: 30px;
+	font-size: 54px;
+	text-transform: none;
+	font-family: "华文行楷";
+	font-weight: lighter;
+	color: #000000;
+}
+.banenr {
+	height: 80px;
+	width: auto;
+	background-color: #078EEB;
+}
+.banenr .banner-bg h3 {
+	font-size: 36px;
+	font-weight: lighter;
+	float: left;
+	margin-top: 20px;
+	color: #f1f1f1;
+	margin-left: -30px;
+}
+
+.banner-bg {
+	margin: auto;
+	width: 1100px;
+	height: 80px;
+	padding-left: 0px;
+}
+a {
+	color: #000;
+	text-decoration: none;
+}
+
+
+
+li {
+    list-style: none;
+}
+.clear {
+    clear: both;
+}
+.menus {
+	width: 1100px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	height: 100px;
+}
+.menus ul {
+	width: 700px;
+	position: relative;
+	float: right;
+	margin-top: 20px;
+	font-style: italic;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #FF09D4;
+}
+.menus li {
+	float: left;
+	width: 100px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	cursor: pointer;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+	font-size: 24px;
+}
+.menus li:nth-child(2) {
+    color: #F49405;
+}
+.menus .bg {
+	width: 100px;
+	height: 40px;
+	position:absolute;
+	left: 0;
+	top: 0;
+	z-index: -1;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+	background-image: url(file:///E|/hust/%E4%BD%9C%E4%B8%9A/%E6%96%B0%E7%94%9F%E5%AE%9E%E8%B7%B5%E8%AF%BE/%E7%BD%91%E9%A1%B5%E4%BD%9C%E4%B8%9A/1930140618%E7%BD%97%E5%8F%91%E6%9D%B0/images/index/ban.png);
+}
+
+.tab {
+    width: 750px;
+    height: 500px;
+    border: 1px solid #000;
+    margin-top: 20px;
+    font-size: 40px;
+    line-height: 500px;
+    text-align: center;
+    color: #888;
+    font-weight: bold;
+    display: none;
+}
+.show {
+    display: block;
+}
+
+#footer {
+	text-align: center;
+	vertical-align: middle;
+	height: 150px;
+	padding-top: 50px;
+	color: #FFF;
+	background-color: #333;
+}
+body {
+	margin: 0px;
+	background-color: #E08D1D;
+}
+.slider {
+	background-color: #C99;
+	height: 620px;
+	width: 1100px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	border-radius: 12px;
+	padding-bottom: 0px;
+}
+
+
+
+body { 
+    width:auto;
+	margin: 0px;
+	padding: 0px;
+}
+.slider1 {
+	height: 600px;
+	width: 1080px;
+	margin-top: 10px;
+	margin-right: 10px;
+
+	margin-left: 10px;
+	overflow: hidden;
+	border-radius: 12px;
+}
+.welcome-text {
+	height: 200px;
+	width: 1100px;
+	margin-top: 12px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	background-color: #ECF020;
+	font-size: 48px;
+	text-align: center;
+	vertical-align: middle;
+	padding-top: 40px;
+}
+.scroll-td-text {
+	height: 40px;
+	width: 280px;
+	text-align: center;
+	vertical-align: middle;
+	padding-top: 10px;
+	font-size: 24px;
+}
+.introduce {
+	height: 40px;
+	width: 1100px;
+	margin-right: auto;
+	margin-left: auto;
+	font-size: 24px;
+	padding-top: 8px;
+	border-bottom-width: 2px;
+	border-left-width: 10px;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-bottom-color: #201B1C;
+	border-left-color: #9F3;
+}
+.introduce-content {
+	height: 500px;
+	width: 1100px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #E2A61A;
+	margin-bottom: 5px;
+	border-radius: 15px;
+}
+#img-introduce {
+	background-color: #CC0;
+	float: left;
+	height: 480px;
+	width: 620px;
+	margin: 10px;
+}
+#text-introduce {
+	margin: 10px;
+	height: 480px;
+	width: 440px;
+	float: left;
+}
+.text-introducce {
+	height: 100px;
+	width: 440px;
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
+.scroll {
+	height: 380px;
+	width: 1000px;
+	margin-right: auto;
+	background-color: #FFF;
+	position: relative;
+	overflow: hidden;
+	margin-top: 20px;
+	margin-bottom: auto;
+	margin-left: auto;
+}
+.ms-ex {
+	padding: 10px;
+	height: 440px;
+	width: 1100px;
+	border: 1px solid #999;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 14px;
+	margin-bottom: 14px;
+}
+.text-box {
+	height: 40px;
+	width: 150px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	float: left;
+	font-size: 30px;
+	text-align: center;
+	vertical-align: middle;
+	padding-top: 10px;
+	
+}
+.ms-exhibition p {
+	height: 36px;
+	margin-top: 0px;
+}
+
+	
+.ms-exhibition {
+	margin-right: auto;
+	font-size: 36px;
+	padding-top: 0px;
+	text-align: center;
+	height: 36px;
+	width: 1000px;
+	margin-left: auto;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	background-color: #CECD26;
+}
+#text-box1 {
+	background-color: #2742AD;
+	border-radius: 12px;
+}
+#text-box3 {
+	background-color: #F03;
+	border-radius: 12px;
+}
+#text4 #text-box4 {
+	background-color: #6F6;
+	border-radius: 12px;
+}
+.swiper-container {
+      width: 100%;
+      height: 100%;
+      margin-left: auto;
+      margin-right: auto;
+
+	 
+    }
+#text-box2 {
+	background-color: #09F;
+	border-radius: 12px;
+}
+.text-box-right {
+	float: left;
+	height: 80px;
+	width: 250px;
+	margin-top: 16px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 10px;
+	font-size: 18px;
+}
+    .swiper-slide {
+	text-align: center;
+	font-size: 18px;
+	background: #fff;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+	margin-top: 10px;
+	
+	
+	
+    }
+     
+.scroll-in {
+	height: 300px;
+	width: 1080px;
+	margin-top: 40px;
+	margin-right: auto;
+	margin-left: auto;
+	
+
+	
+}
+			
+		
+
+.scroll-td {
+	height: 280px;
+	width: 280px;
+	margin-left: 0px;
+}
+h3 {
+	font-size: 24px;
+	line-height: 30px;
+	font-family: "微软雅黑";
+	text-indent: 48px;
+}
+h1 {
+	line-height: 24px;
+	font-size: 44px;
+}
+	
+	.container{
+	max-width: 1100px;
+	margin-top: 50px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;	
+}
+.card{
+	width: 100%;
+	height: 450px;
+	padding: 0px;
+	margin-bottom: 80px;
+	position: relative;
+}
+.card .card-text p {
+	font-family: "微软雅黑";
+	font-size: 20px;
+	line-height: 30px;
+	margin-top: 30px;
+}
+.card-img-left{
+	width:600px;
+	height:450px;
+	float:left;
+	overflow:auto;
+}
+.card .card-text h3 {
+	font-family: "微软雅黑";
+	font-size: 36px;
+	text-align: center;
+}
+.btn {
+	font-size: 24px;
+	vertical-align: sub;
+	text-align: justify;
+	position: absolute;
+	bottom: 0px;
+	right: 20px;
+	border: 2px solid #FFF000;
+}
+.btn-left {
+	font-size: 24px;
+	vertical-align: sub;
+	text-align: justify;
+	position: absolute;
+	bottom: 0px;
+	left: 20px;
+	border: 2px solid #F00;
+}
+.card-img-right{
+	width:600px;
+	height: 450px;
+	float: right;
+	overflow: auto;
+}
+.card-text{
+	width: 460px;
+	margin: 0 20px;
+	height: 450px;
+	float: left;
+}
+</style>
+<link href="file:///E|/hust/作业/新生实践课/网页作业/1930140618罗发杰/css/aos.css" rel="stylesheet" type="text/css" />
+
+<link href="file:///E|/hust/作业/新生实践课/网页作业/1930140618罗发杰/css/banner-style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div class="menus menus1">
+  <h1>ACG&nbsp; </h1>
+<ul>
+  
+    <div class="bg"></div>
+            <li><span><strong><a href="index.html">首页</a></strong></span></li>
+            <li><span><a href="fired rice.html">日漫</a><a>&nbsp;</a></span></li>
+            
+            <li><span><a href="xz.html">国创</a><a>&nbsp;</a></span></li>
+            <li><span><a href="noodle.html">游戏&nbsp;</a></span></li>
+	        <li><span><a href="dumplings.html">轻小说</a><a>&nbsp;</a></span></li>
+        </ul>
+        <div class="clear"></div>
+    </div>
+ 
+<script src="http://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+<script src="file:///E|/hust/作业/新生实践课/网页作业/1930140618罗发杰/js/index.js"></script>
+<div class="banenr">
+  <div class="banner-bg">
+    <h3>日漫/国创/<strong><em>游戏</em></strong>/轻小说</h3>
+</div>
+</div>
+ <div class="banner-x"><img src="../images/noodle/1.png" width="1150" height="500"></div>
+<div class="container">
+<section data-aos="fade-up">
+  <div class="card"> 
+<div class="card-img-left"><img src="../images/noodle/10.png" /></div>
+<div class="card-text">
+  <h3>英雄传说系列&nbsp;</h3>
+  <p>《英雄传说》系列是日本Falcom公司的角色扮演游戏，以指令型RPG为特色，与伊苏系列同为Falcom公司两大看家作品。其前身为Falcom的Dragon Slayer系列的其中一个分支系列，初期两作以Dragon Slayer系列第六作的身份发售，到1994年第三作发售前由于Dragon Slayer系列主创人木屋善夫的离职，Dragon Slayer系列解体而从系列中独立出来自成一个系列。&nbsp;</p>
+</div>
+</div>
+</section>
+
+<section data-aos="fade-left">
+<div class="card"> 
+<div class="card-img-right"><img src="../images/noodle/9.png" /></div>
+<div class="card-text">
+  <h3>女神异闻录系列&nbsp;</h3>
+  <p>《女神异闻录》系列是ATLUS制作并发行的系列游戏，最初起源于同社的RPG《真·女神转生》的衍生作品《真·女神转生if...》。系列第一部作品《女神异闻录~ペルソナ~》于1996年9月20日发售 。系列历经20多年的时间，已发售过多部作品，并涵盖了多个游戏平台和多种游戏类型。&nbsp;</p>
+</div>
+</div>
+</section>
+
+
+<section data-aos="fade-right">
+<div class="card"> 
+<div class="card-img-left"><img src="../images/noodle/8.png" /></div>
+<div class="card-text">
+  <h3>《伊苏》系列&nbsp;</h3>
+  <p>《伊苏》是日本老牌电子游戏公司Falcom所制作的一套动作角色扮演游戏（ARPG）系列，首作于1987年在NEC PC-8801上推出。该游戏为古老的“伊苏国”传说所执着的红发的少年冒险家 亚特鲁.克里斯丁穿越被结界阻挡的海域来到伊苏旧址——艾斯塔里亚，受占卜师莎拉的指引，亚特鲁开始收集传说中的六本“伊苏之书”，在魔兽频繁出没的艾斯塔里亚踏上了冒险旅程。&nbsp;</p>
+</div>
+</div>
+</section>
+
+
+<section data-aos="slide-left">
+<div class="card"> 
+<div class="card-img-right"><img src="../images/noodle/7.png" /></div>
+<div class="card-text">
+  <h3>《最终幻想》FF系列&nbsp;</h3>
+  <p>&nbsp;最终幻想（日语：ファイナルファンタジー，简称FF，台湾/香港：太空战士，中国大陆：最终幻想），1987年由日本当时的游戏软件公司史克威尔（SQUARE SOFT）（与ENIX艾尼克斯合并为：SQUARE-ENIX）开发的角色扮演游戏（RPG）游戏系列。</p>
+</div>
+</div>
+</section>
+
+
+<section data-aos="slide-right">
+<div class="card"> 
+<div class="card-img-left"><img src="../images/noodle/6.png" /></div>
+<div class="card-text">
+  <h3>《勇者斗恶龙》系列&nbsp;</h3>
+  <p>《勇者斗恶龙》是由日本ENIX株式会社（现为SQUARE-ENIX）研发的RPG游戏，其作为游戏史上最畅销的长寿游戏系列之一，在日本具有“国民RPG”之称。第一代发售于1986年5月27日，机种是FC。故事由堀井雄二主理，椙山浩一负责游戏音乐的作曲，漫画家鸟山明负责人物设定。这个游戏被认为奠定了日本RPG的地位。&nbsp;</p>
+</div>
+</div>
+</section>
+
+
+<section data-aos="flip-left">
+<div class="card"> 
+<div class="card-img-right"><img src="../images/noodle/5.png" /></div>
+<div class="card-text">
+  <h3>《口袋妖怪》系列&nbsp;</h3>
+  <p>口袋妖怪，日本于1995年开发，日本任天堂株式会社于1996年推出的一款Game Boy游戏。其独特的游戏系统广受大众的欢迎，年度产品销量过千万。任天堂趁此热潮，推出后续的一系列游戏、漫画、书籍、对战卡片及周边产品，还联合日本东京电视台推出电视动画，以及一年一度的剧场版动画电影，1998年成功进军美国，并拓展至世界各地。成为世界闻名的卡通形象和日本的国民动画。相关产品销售额达数十亿美元以上。目前口袋妖怪已经独立成一公司－The Pokémon Company，为任天堂旗下的子公司之一。&nbsp;</p>
+</div>
+</div>
+</section>
+
+
+<section data-aos="flip-right">
+<div class="card"> 
+<div class="card-img-left"><img src="../images/noodle/4.png" /></div>
+<div class="card-text">
+  <h3>幻想水浒传系列&nbsp;</h3>
+  <p>&nbsp;“幻想水浒传系列”是日本游戏软件公司科乐美发售的角色扮演游戏系列。以中国四大奇书之一的“水浒传”作为题材。每作游戏内可以有108位角色（宿星－以三十六天罡星七十二地煞星命名）作为同伴，但部分作品可以有超过108名角色加入，集合全部角色是非常困难的。</p>
+</div>
+</div>
+</section>
+
+
+<section data-aos="zoom-in-left">
+<div class="card"> 
+<div class="card-img-right"><img src="../images/noodle/2.png" /></div>
+<div class="card-text">
+  <h3>《黄金太阳》系列&nbsp;</h3>
+  <p>《黄金太阳》是任天堂发行的奇幻角色扮演游戏系列，第一作发布于2001年。游戏以炼金术为题材，讲述了年轻元素使拯救世界的故事。目前系列一共发布了三作，分别是Game Boy Advance上的《黄金太阳 开启的封印》、《黄金太阳 失落的时代》和任天堂DS平台上的《黄金太阳 漆黑的黎明》。系列曾经被称为“最好的掌机游戏”，三作在全球总销量超过350万套。&nbsp;</p>
+</div>
+</div>
+</section>
+
+
+
+
+</div>
+
+<script type="text/javascript" src="file:///E|/hust/作业/新生实践课/网页作业/1930140618罗发杰/js/aos.js"></script>
+<script>
+		AOS.init({
+			
+			easing: 'ease-out-back',
+			duration: 2000
+		});
+	</script>
+
+<footer> </footer>
+
+
+</body>
+</html>

@@ -1,0 +1,681 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>日漫</title>
+
+<style type="text/css">
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.menus.menus1 h1 {
+	vertical-align: sub;
+	float: left;
+	margin-top: 30px;
+	font-size: 54px;
+	text-transform: none;
+	font-family: "华文行楷";
+	font-weight: lighter;
+	color: #000000;
+}
+.banenr {
+	height: 80px;
+	width: auto;
+	background-color: #078EEB;
+}
+.banenr .banner-bg h3 {
+	font-size: 36px;
+	font-weight: lighter;
+	float: left;
+	margin-top: 20px;
+	color: #f1f1f1;
+	margin-left: -30px;
+}
+
+.banner-bg {
+	margin: auto;
+	width: 1100px;
+	height: 80px;
+	padding-left: 0px;
+}
+a {
+	color: #000;
+	text-decoration: none;
+}
+
+
+
+li {
+    list-style: none;
+}
+.clear {
+    clear: both;
+}
+.menus {
+	width: 1100px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	height: 90px;
+}
+.menus ul {
+	width: 700px;
+	position: relative;
+	float: right;
+	margin-top: 20px;
+	font-style: italic;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #FF09D4;
+}
+.menus li {
+	float: left;
+	width: 100px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	cursor: pointer;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+	font-size: 30px;
+}
+.menus li:nth-child(2) {
+    color: #F49405;
+}
+.menus .bg {
+	width: 20px;
+	height: 40px;
+	position:absolute;
+	left: 0;
+	top: 0;
+	z-index: -1;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+	background-image: url(file:///E|/hust/%E4%BD%9C%E4%B8%9A/%E6%96%B0%E7%94%9F%E5%AE%9E%E8%B7%B5%E8%AF%BE/%E7%BD%91%E9%A1%B5%E4%BD%9C%E4%B8%9A/1930140618%E7%BD%97%E5%8F%91%E6%9D%B0/images/index/ban.png);
+}
+
+.tab {
+    width: 750px;
+    height: 500px;
+    border: 1px solid #000;
+    margin-top: 20px;
+    font-size: 40px;
+    line-height: 500px;
+    text-align: center;
+    color: #A3A0A0;
+    font-weight: bold;
+    display: none;
+}
+.show {
+    display: block;
+}
+
+#footer {
+	text-align: center;
+	vertical-align: middle;
+	height: 150px;
+	padding-top: 50px;
+	color: #FFF;
+	background-color: #333;
+}
+body {
+	margin: 0px;
+	background-color: #E08D1D;
+}
+.slider {
+	background-color: #C99;
+	height: 620px;
+	width: 1100px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	border-radius: 12px;
+	padding-bottom: 0px;
+}
+
+
+
+body { 
+    width:auto;
+	margin: 0px;
+	padding: 0px;
+}
+.slider1 {
+	height: 600px;
+	width: 1080px;
+	margin-top: 10px;
+	margin-right: 10px;
+
+	margin-left: 10px;
+	overflow: hidden;
+	border-radius: 12px;
+}
+.welcome-text {
+	height: 200px;
+	width: 1100px;
+	margin-top: 12px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	background-color: #ECF020;
+	font-size: 48px;
+	text-align: center;
+	vertical-align: middle;
+	padding-top: 40px;
+}
+.scroll-td-text {
+	height: 40px;
+	width: 280px;
+	text-align: center;
+	vertical-align: middle;
+	padding-top: 10px;
+	font-size: 24px;
+}
+.introduce {
+	height: 40px;
+	width: 1100px;
+	margin-right: auto;
+	margin-left: auto;
+	font-size: 24px;
+	padding-top: 8px;
+	border-bottom-width: 2px;
+	border-left-width: 10px;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-bottom-color: #201B1C;
+	border-left-color: #9F3;
+}
+.introduce-content {
+	height: 500px;
+	width: 1100px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #E2A61A;
+	margin-bottom: 5px;
+	border-radius: 15px;
+}
+#img-introduce {
+	background-color: #CC0;
+	float: left;
+	height: 480px;
+	width: 620px;
+	margin: 10px;
+}
+#text-introduce {
+	margin: 10px;
+	height: 480px;
+	width: 440px;
+	float: left;
+}
+.text-introducce {
+	height: 100px;
+	width: 440px;
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
+.scroll {
+	height: 380px;
+	width: 1000px;
+	margin-right: auto;
+	background-color: #FFF;
+	position: relative;
+	overflow: hidden;
+	margin-top: 20px;
+	margin-bottom: auto;
+	margin-left: auto;
+}
+.ms-ex {
+	padding: 10px;
+	height: 440px;
+	width: 1100px;
+	border: 1px solid #999;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 14px;
+	margin-bottom: 14px;
+}
+.text-box {
+	height: 40px;
+
+	width: 150px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	float: left;
+	font-size: 30px;
+	text-align: center;
+	vertical-align: middle;
+	padding-top: 10px;
+	
+}
+.ms-exhibition p {
+	height: 36px;
+	margin-top: 0px;
+}
+
+	
+.ms-exhibition {
+	margin-right: auto;
+	font-size: 36px;
+	padding-top: 0px;
+	text-align: center;
+	height: 36px;
+	width: 1000px;
+	margin-left: auto;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	background-color: #CECD26;
+}
+#text-box1 {
+	background-color: #2742AD;
+	border-radius: 12px;
+}
+#text-box3 {
+	background-color: #F03;
+	border-radius: 12px;
+}
+#text4 #text-box4 {
+	background-color: #6F6;
+	border-radius: 12px;
+}
+.swiper-container {
+      width: 100%;
+      height: 100%;
+      margin-left: auto;
+      margin-right: auto;
+
+	 
+    }
+#text-box2 {
+	background-color: #09F;
+	border-radius: 12px;
+}
+.text-box-right {
+	float: left;
+	height: 80px;
+	width: 250px;
+	margin-top: 16px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 10px;
+	font-size: 18px;
+}
+    .swiper-slide {
+	text-align: center;
+	font-size: 18px;
+	background: #fff;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+	margin-top: 10px;
+	
+	
+	
+    }
+     
+.scroll-in {
+	height: 300px;
+	width: 1080px;
+	margin-top: 40px;
+	margin-right: auto;
+	margin-left: auto;
+	
+
+	
+}
+			
+		
+
+.scroll-td {
+	height: 280px;
+	width: 280px;
+	margin-left: 0px;
+}
+h3 {
+	font-size: 24px;
+	line-height: 30px;
+	font-family: "微软雅黑";
+	text-indent: 48px;
+}
+h1 {
+	line-height: 24px;
+	font-size: 44px;
+}	
+	
+#zpc-content {
+	height: 650px;
+	width: auto;
+	padding-top: 0px;
+}
+#ex-top {
+	margin-top: 0px;
+}
+.step-text {
+	height: 90px;
+	width: 200px;
+	margin-top: 10px;
+	text-align: left;
+	vertical-align: middle;
+	padding-top: 15px;
+	line-height: 24px;
+	padding-bottom: 15px;
+}
+.step-text p {
+	margin: 10px;
+}
+.step-img1 {
+	margin-top: 10px;
+}
+.step-img {
+	height: 120px;
+	width: 160px;
+	margin-top: 10px;
+	margin-left: 0px;
+}
+#zpc-content-00 {
+	float: left;
+	height: 650px;
+	width: 670px;
+	padding: 0px;
+	margin-top: 0px;
+}
+.video {
+	height: 378px;
+}
+.video-text {
+	height: 130px;
+}
+#zpc-content-step {
+	height: 650px;
+	width: 420px;
+	float: right;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 10px;
+	padding: 0px;
+}
+#step-text {
+	margin: 0px;
+	height: 650px;
+	width: 220px;
+	float: right;
+}
+#step-img {
+	height: 650px;
+	width: 180px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	float: right;}
+.app {
+	width: 1100px;
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+.box {
+	float: left;
+	width: 280px;
+	overflow: hidden;
+	background: #f6f6f6;
+	box-sizing: border-box;
+	margin-left: 20px;
+	padding-top: 0;
+	padding-right: 15px;
+	padding-bottom: 25px;
+	padding-left: 15px;
+	position: relative;
+	height: 328px;
+}
+#box-left{
+	margin-left: 14px;
+}
+
+.box a {
+	float:inherit;
+	
+	flex-direction: column;
+	align-items: center;
+	color: #535353;
+	text-decoration: none;
+
+}
+
+.box a:hover {
+    color: #e52d67;
+}
+
+.imgBox {
+    width: 280px;
+    height: 187px;
+    overflow: hidden;
+}
+
+.imgBox img {
+    width: 100%;
+    height: 100%;
+    transition: all 0.6s linear;
+}
+
+.source {
+    border: 1px solid #535353;
+    padding: 6px 20px;
+    border-radius: 25px;
+    margin: 20px;
+}
+
+.title {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.detail {
+    font-size: 14px;
+    line-height: 160%;
+    text-align: justify;
+    width: 100%;
+}
+
+.box>a::after {
+	content: '';
+	width: 280px;
+	position:absolute;
+	background: #e52d67;
+	bottom: 0;
+	height: 0px;
+	transition: height 0.3s linear;
+   
+}
+
+
+.box:hover img {
+    transform: scale(1.15);
+}
+
+.box:hover .source {
+    background: #2C90E5;
+    border-color: #2CC3E5;
+    color: #ffffff;
+}
+.btn {
+	font-size: 16px;
+	vertical-align: sub;
+	text-align: justify;
+	position: absolute;
+	bottom: 0px;
+	right: 20px;
+	border: 2px solid #F00;
+}
+</style>
+<link href="file:///E|/hust/作业/新生实践课/网页作业/1930140618罗发杰/css/banner-style.css" rel="stylesheet" type="text/css" />
+
+
+</head>
+
+<body>
+<div class="menus menus1">
+  <h1>ACG&nbsp; </h1>
+<ul>
+    <div class="bg"></div>
+            <li><span><strong><a href="index.html">首页</a></strong></span></li>
+            <li><span><a href="fired rice.html">日漫&nbsp;</a></span></li>
+            
+            <li><span><a href="xz.html">国</a><a>创&nbsp;</a></span></li>
+            <li><span><a href="noodle.html">游戏&nbsp;</a></span></li>
+	        <li><span><a href="dumplings.html">轻小说</a><a>&nbsp;</a></span></li>
+        </ul>
+        <div class="clear"></div>
+    </div>
+ 
+<script src="http://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+<script src="file:///E|/hust/作业/新生实践课/网页作业/1930140618罗发杰/js/index.js"></script>
+<div class="banenr">
+  <div class="banner-bg">
+    <h3><strong><em>日漫</em></strong>/国创/游戏/轻小说</h3>
+</div>
+</div>
+
+<div class="container">
+
+
+<div class="zpc">
+  <div id="zpc-content">
+    <div id="zpc-content-00">
+      <div class="video-text">
+        <p>日本动漫&nbsp;</p>
+        <p>&nbsp; &nbsp; &nbsp; &nbsp;是日本动画（Anime）和日本漫画（Manga）的合称，日本动漫凭着剧情的创新和趣味性在全球占有着重要地位，是世界动漫文化的领军人。 日本是典型的动漫强国，其动漫发展的模式具有鲜明的民族特色而不失创新和吸引力。动漫是日本的重要产业链，在全球鲜有对手。日本动漫的发展过程大致可分为4个阶段：萌芽期、探索期、成熟期、细化期。</p>
+        <p>“机器人动画三次革命”，又称日本军事科幻动画三大不朽系列，指《机动战士高达0079》、《超时空要塞》、《新世纪福音战士》。 《超时空要塞》（日语：超时空要塞マクロス；英语：The Super Dimension Fortress Macross），又译为马克罗斯，中国电视公司播出时称为宇宙战舰，卫视中文台曾经以马可罗士之名重播。1982年10月3日首次在日本电视台播出，共36话，超时空系列的第一部；而香港亚洲电视中文台(现称本港台)则在1984年10月启播该作品。该剧被认为是日本动画时代的里程碑，与宇宙战舰大和号、机动战士高达并称为日本军事科幻动画三大不朽系列。 《超时空要塞》描述星际战争中几对男女之间的经历。是首部结合偶像歌手、恋爱、战机变形机器人等元素的系列动画片，带起一波新的动画狂热，其中人物的用语更成为动漫狂热者的自称，参见御宅族。 1985年，美国金和声公司购得该片版权，且和《超时空骑团》、《机甲创世纪》重新改编为《太空堡垒》，并得到巨大成功。
+		于日本文化厅所举办的“日本传媒艺术100选”中，该片也被票选为史上最经典动画。 日本动漫同人大会又称Comiket，是日本最大的同人志展会，全称Comic Market。以动画、漫画、游戏、小说、周边的自费出版物的贩卖和展示为主要运营形式。与会者由企划参与者、读者和普通参与者三大群体构成，为同人志活动的推广起到了至关重要的作用。 Comiket从1975年开始举办第1届，逐渐扩大规模，展会在每年夏冬各举办一届，每届历时2-3天。自2010年仅一天同好参加人数就达到了约11000人次，普通参加者人数超过了10万人次，开幕期间仅Comiket统计人数均超过40万人次，这样的规模其实已经略微超过了市町村的人口总数，c66一届参与人数达到了史无前例的51万人次。展会在日本最大规模的东京国际展览中心举办，包租全部东馆的6大厅，西馆的4大厅。这样的包租规模除Comiket外无人能及，展会2天的资金流通总数超过了1亿5000万日元。  &nbsp;</p>
+      </div>
+</div>
+    <div id="zpc-content-step">
+      <div id="step-img">
+        <div class="step-img1"><img src="../images/fried rice/1.png" width="170"/></div>
+        <div class="step-img1"><img  src="../images/fried rice/2.png" width="170" /></div>
+        <div class="step-img1"><img  src="../images/fried rice/3.png" width="170" /></div>
+        <div class="step-img1"><img  src="../images/fried rice/4.png" width="170" /></div>
+        <div class="step-img1"><img  src="../images/fried rice/5.png" width="170" /></div>
+      </div>
+      <div id="step-text">
+        <div class="step-text">
+          <blockquote>
+            <p>1.热血漫&nbsp;</p>
+          </blockquote>
+        </div>
+        <div class="step-text">
+          <p>&nbsp;2.战争漫</p>
+        </div>
+        <div class="step-text">
+            <p>3.青春漫&nbsp;</p>
+        </div>
+        <div class="step-text">
+          <p>&nbsp;4.悬疑推理漫</p>
+        </div>
+        <div class="step-text">
+          <p>5.日常漫&nbsp;</p>
+        </div>
+     </div>
+    </div>
+  </div>
+</div>
+<hr />
+<div class="app" id="ex-top">
+       <div class="box" id="box-left">
+            <a href="#">
+                <div class="imgBox">
+                    <img src="../images/fried rice/6.png" alt="">
+                </div>
+   
+            <h2 class="title">魔法少女小樱&nbsp;</h2>
+</a>
+            
+            </div>
+        
+        <div class="box">
+            <a href="#">
+                <div class="imgBox">
+                    <img src="../images/fried rice/7.png" alt="">
+                </div>
+              
+            <h2 class="title">机动战士高达&nbsp;</h2>
+                </a>
+           
+            </a>        </div>
+        
+        <div class="box">
+            <a href="#">
+                <div class="imgBox">
+                    <img src="../images/fried rice/8.png" alt="">
+                </div>
+                
+            <h2 class="title">妖精的尾巴&nbsp;</h2>
+</a>
+            
+        </div>
+       
+</div>
+<div class="app">
+        <div class="box" id="box-left">
+            <a href="#">
+                <div class="imgBox">
+                    <img src="../images/fried rice/9.png" alt="">
+                </div>
+               
+            <h2 class="title">火影忍者&nbsp;</h2>
+</a>
+            
+        </div>
+        <div class="box">
+            <a href="#">
+                <div class="imgBox">
+                    <img src="../images/fried rice/10.png" alt="">
+                </div>
+                
+            <h2 class="title">灌篮高手&nbsp;</h2>
+</a>
+            
+        </div>
+        <div class="box">
+            <a href="#">
+                <div class="imgBox">
+                    <img src="../images/fried rice/11.png" alt="">
+                </div>
+                
+            <h2 class="title">爆漫王&nbsp;</h2>
+</a>
+            
+        </div>
+       
+</div>
+
+
+<footer> </footer>
+
+
+
+</body>
+</html>
